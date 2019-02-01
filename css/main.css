@@ -1,0 +1,47 @@
+* {
+  background-color: #31acee;
+  box-sizing: border-box;
+  font-family: 'Chakra Petch', sans-serif;
+  margin: 0;
+  text-align: center
+}
+
+#splash-screen {
+  background: url('https://i2.wp.com/meebily.com/wp-content/uploads/2018/04/Pokemon-Trivia-Question-and-Answers.jpeg');
+  background-position: center;
+	position: fixed;
+	top: 0;
+  bottom: 0;
+  left: 0;
+	width: 100%;
+	z-index: 9999;
+}
+
+.flex-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.first-section {
+  height: 100vh;
+}
+
+.form-cont {
+  padding: 100px;
+  width: 50%;
+  flex-direction: column
+}
+
+.form-cont h1, p, form {
+  padding: 50px
+}
+
+.img-cont {
+  align-items: right;
+  width: 45%;
+}
+
+.main-img {
+  width: 50%;
+}

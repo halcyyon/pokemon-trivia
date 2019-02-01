@@ -1,0 +1,21 @@
+* {
+  background-color: #31acee;
+  box-sizing: border-box;
+  font-family: 'Chakra Petch', sans-serif;
+  text-align: center
+}
+
+.flex-cont {
+  display: flex;
+  justify-content: space-around;
+}
+
+.question-cont {
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.img-box img{
+  height: 35vh;
+}
